@@ -1,0 +1,17 @@
+.card-md-hybrid {
+    width: 340px;
+    height: 400px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.card-md-hybrid-content {
+    padding: 0 20px;
+}
+
+.card-md-hybrid-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
