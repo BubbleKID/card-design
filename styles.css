@@ -214,14 +214,24 @@ body {
     border-radius: 10px;
     color: #ffffff;
     margin-bottom: 40px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.12);
 }
 
-.card-md-3__details{
-
-}
-
-.card-md-3__details img{
+.card-md-3__top{
+    width: 100%;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-md-3__more{
+    margin: 30px 24px;
+    z-index: 1;
+    height: 24px
+}
+
+.card-md-3__details {
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.12);
 }
 
 .card-md-3__content {
@@ -254,7 +264,7 @@ body {
     border-radius: 4px;
     color: #ffffff;
     background-color: #e33c36;
-    position: absolute;
+    margin: 30px;
     left: 30px;
     bottom: 200px;
 }
@@ -262,6 +272,7 @@ body {
 .pictures {
     background: linear-gradient(45deg, #494aff, #006efe);
 }
+
 .places {
     background: linear-gradient(-135deg, #4b08be, #870eff);
 }
