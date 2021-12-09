@@ -190,3 +190,78 @@ body {
     font-weight: 500;
     padding: 45px;
 }
+
+/* card line 2 - 3 */
+.card-md-3 {
+    position: relative;
+    width: 340px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.card-md-3__tiles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-md-3__tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    width: 150px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.card-md-3__details{
+
+}
+
+.card-md-3__details img{
+    position: absolute;
+}
+
+.card-md-3__content {
+    left: 30px;
+    bottom: 36px;
+    color: #ffffff;
+    position: absolute;
+}
+
+.card-md-3__content :first-child{
+    margin: 0;
+    font-size: 25px;
+}
+
+.card-md-3__content :nth-child(2){
+    margin: 0;
+    font-size: 14px;
+}
+
+.card-md-3__tag {
+    z-index: 1;
+    cursor: pointer;
+    letter-spacing: 1px;
+    height: 20px;
+    width: 60px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #e33c36;
+    position: absolute;
+    left: 30px;
+    bottom: 200px;
+}
+
+.pictures {
+    background: linear-gradient(45deg, #494aff, #006efe);
+}
+.places {
+    background: linear-gradient(-135deg, #4b08be, #870eff);
+}
